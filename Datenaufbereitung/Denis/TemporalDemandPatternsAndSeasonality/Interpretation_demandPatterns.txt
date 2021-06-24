@@ -1,0 +1,19 @@
+The four bar charts show demand patterns over different time dimensions. The distribution of rides during a single day has two clear peaks,
+these are at 8am and at 5pm. Between these hours the demand is more or less equal. After 5pm the demand sinks until 3am where it gets close to
+zero. By 4am the demand starts rising again. The reason for this kind of distribution is the people's daily routine. At roughly 8am there is the
+first rush hour where people get to work, university, school etc. During the daytime, people have a demand for the bicycles as they need to get to
+a certain destination in the city. Later, at 5pm, the second rush hour occurs. This is explained by the almost equal end of the work
+day for almost all people. After that, hour by hour the demand sinks as people are getting home and most likely dont leave the house until the next
+morning. During the night, Boston seems to be a quiet place. People sleep at night and don't use the bikes.
+
+The distribution over weekdays shows that there is a clear difference between the work days Monday to Friday and the weekend days, Saturday and Sunday.
+On weekend days people use to leave the city or take their cars.
+
+The distribution of rides per month shows clearly a demand growth from January to September. As the fall begins the demand drops rapidly. The lowest
+demand can be observed during the winter months and the highest over the summer months and September.
+
+An additional distribution with rides per calendar week is a refinement of the demands per month. It has the same development and form as the previous
+bar chart.
+
+The gained data and visual information helps a bike sharing company to understand the development of demand over time and to make right conclusions
+and decisions regarding fleet maintenance and demand prediction.
