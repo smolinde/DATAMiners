@@ -1,0 +1,13 @@
+Linear Regression On Temperature And Rents Per Hour
+
+In terms of predicting the demand a possible idea is to find a correlation between outdoor temperatures and hourly values for the rents.
+The first step is to generate a dataset with weather and rents combined. Therefore we take the previous generated dataset for the KPI
+total rents per hour and left-join it on the temperature data for 2019. After cleaning the data it is a good idea to also have a look if precipitation
+has an impact on the temerature-rents correlation. As shown in the plot below, the blue points for the days with precipitation do not reveal any special
+patterns. This means it is not neccessary to do two separate regression models. The resulting function is f(t) = 0.3751*t - 0.0353 (Values rounded to 4th digit)
+where t is the rescaled temperature and f(t) is the predicted rescaled demand. The function describes very well the average demand per temperature but does not
+give a precise prediction for specific values. There is an interesting point at f(t) = 0 where t is (approx.) 0.094. As there is no possibility to have negative
+rents it turns out that below t = 0.094 there are no rents expected. If this value is rescaled back we get (approx.) -10.2°C. If temperatures drop lower than this
+value the bike sharing company could expect that nobody will rent the bikes. This information is very useful and valuable as the company can use those days with
+low outdoor temperatures to maintain the fleet, change bikes or do other related adjustments. As the regression coefficient is positive there is a positive linear
+correlation between the outdoor temperatures and amount of rents.
