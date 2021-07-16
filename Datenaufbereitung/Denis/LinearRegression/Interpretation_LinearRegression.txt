@@ -10,4 +10,6 @@ give a precise prediction for specific values. There is an interesting point at 
 rents it turns out that below t = 0.094 there are no rents expected. If this value is rescaled back we get (approx.) -10.2°C. If temperatures drop lower than this
 value the bike sharing company could expect that nobody will rent the bikes. This information is very useful and valuable as the company can use those days with
 low outdoor temperatures to maintain the fleet, change bikes or do other related adjustments. As the regression coefficient is positive there is a positive linear
-correlation between the outdoor temperatures and amount of rents.
+correlation between the outdoor temperatures and amount of rents. The drawback is that the linear regression is not a precise predictor for demand as it can only
+predict an average for temperatures and the real values variate too much from the linear regression function. Also there is a difference between 15°C in summer
+and in winter, this is not observed in the regression.
