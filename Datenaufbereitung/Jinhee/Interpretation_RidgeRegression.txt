@@ -1,4 +1,0 @@
-The ridge regression is a possible approach to get a prediction for rent demand. The following diagram shows test data and a prediction curve.
-The selected polynomial degree is eight, because the intercept value for this degree was the smallest, 34.4673. The function predicts an hourly demand for
-rents. The prediction for 3am goes below zero, that means the company can assume there are no rents expected at this time. This time the company could use for smaller
-system adjustments, reboots etc.
